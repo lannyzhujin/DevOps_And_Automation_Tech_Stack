@@ -2,20 +2,27 @@
 This repository notes the technology stack of my experience as a DevOps and Automation Architect. It was created on 2018 May 28th and only content table was there at the beginning. But I will gradually update and complete valuable notes and links.
 
 * [Test Automation](https://github.com/lannyzhujin/DevOps_And_Automation_Tech_Stack/edit/master/README.md#Test_Automation)
-   * Framework
+    * Framework
         * RobotFramework
+        * Cucumber
         * Junit
         * TestNG
-        * PyUnit
-    * Web Automation
+    * API Automation
+        * SoapUI
+    * Unit Test
+    * Code static scan
+        * SonarQube
+        * ESLint
+    * Web UI Automation
         * Selenium / WebDriver
         * Chromium
         * Puppeteer
+    * Mobile
+        * Appium
     * Android 
         * Simulator
     * iOS
         * Xcode
-        * Appium
 
 * [Infrastructure Automation](https://github.com/lannyzhujin/DevOps_And_Automation_Tech_Stack/edit/master/README.md#Infrastructure_Automation)
     * Ansible
