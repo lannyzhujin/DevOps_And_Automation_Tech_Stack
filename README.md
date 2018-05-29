@@ -1,5 +1,5 @@
 # DevOps_And_Automation_Tech_Stack
-This repository shows technology stack of which DevOps and Automation engineer should have.
+This repository notes the technology stack of my experience as a DevOps and Automation Architect. It was created on 2018 May 28th and only content table was there at the beginning. But I will gradually update and complete valuable notes and links.
 
 * [Test Automation](https://github.com/lannyzhujin/DevOps_And_Automation_Tech_Stack/edit/master/README.md#Test_Automation)
    * Framework
@@ -12,7 +12,9 @@ This repository shows technology stack of which DevOps and Automation engineer s
         * Chromium
         * Puppeteer
     * Android 
+        * Simulator
     * iOS
+        * Xcode
         * Appium
 
 * [Infrastructure Automation](https://github.com/lannyzhujin/DevOps_And_Automation_Tech_Stack/edit/master/README.md#Infrastructure_Automation)
@@ -29,6 +31,9 @@ This repository shows technology stack of which DevOps and Automation engineer s
     * Kubernetes
 
 * [Cloud](https://github.com/lannyzhujin/DevOps_And_Automation_Tech_Stack/edit/master/README.md#Cloud)
+    * AWS
+    * Azure
+    * PolyCloud
 
 * [Frontend](https://github.com/lannyzhujin/DevOps_And_Automation_Tech_Stack/edit/master/README.md#Frontend)
     * jQuery
@@ -46,7 +51,9 @@ This repository shows technology stack of which DevOps and Automation engineer s
     * Windows Batch/Power Shell
 
 * [Security Test](https://github.com/lannyzhujin/DevOps_And_Automation_Tech_Stack/edit/master/README.md#Security_Test)
-    * OASP
+    * OWASP
+       * XSS
     * Kali Linux
     * Burp
+    
 
