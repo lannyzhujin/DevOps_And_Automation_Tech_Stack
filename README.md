@@ -94,6 +94,7 @@ Add browser console reading interface for robotframework [selenium2library](http
 
 ## Mobile
 ### Appium
+Extend robotframework [appliumlibrary](https://github.com/serhatbolsu/robotframework-appiumlibrary) keywords of "is_visible", "wait_until_element_is_visible" and "check_visibility".
 
 ## Android 
 ### Simulator
