@@ -64,3 +64,86 @@ This repository notes the technology stack of my experience as a DevOps and Auto
     * Burp
     
 
+# Test Automation
+##  Framework
+### RobotFramework
+### Cucumber
+### Junit
+### TestNG
+
+## API Automation
+### SoapUI
+
+## Unit Test
+
+## Code static scan
+### SonarQube
+### ESLint
+
+## Web UI Automation
+### Selenium / WebDriver
+### Chromium
+### Puppeteer
+
+## Mobile
+### Appium
+
+## Android 
+### Simulator
+
+## iOS
+### Xcode
+
+# Infrastructure Automation
+## Ansible
+## Terraform
+
+# CI/CD
+## Jenkins
+
+## Ubran Code
+
+## Visual Studio Team Services
+
+# Container
+## Docker
+
+## Kubernetes
+
+# Cloud
+## AWS
+
+## Azure
+
+## PolyCloud
+
+# Frontend
+## jQuery
+
+## React
+
+## Broswser
+### Layout Engine
+### XPath
+### DevTool Protocol
+
+# Program Language
+## Java
+
+## Python
+
+## JavaScript
+
+## Bash Shell
+
+## Windows Batch/Power Shell
+
+# Security Test
+## OWASP
+### XSS
+
+## Kali Linux
+
+## Burp
+    
+
