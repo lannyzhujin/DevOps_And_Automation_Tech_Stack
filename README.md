@@ -67,7 +67,13 @@ This repository notes the technology stack of my experience as a DevOps and Auto
 # Test_Automation
 ##  Framework
 ### RobotFramework
+[RobotFramework resource file](https://github.com/lannyzhujin/RobotFramework_Cheat_sheet) is created for generic web page automation. It extends the selenium keywords such as "Open Chrome Headless" and "Wait Exists And Click Element".
+
+[Salesforce DEMO](https://github.com/lannyzhujin/SFDC_Automation) is created for demostrating the selenium and appium automation UItest capability.
+
 ### Cucumber
+[One Cucumber](https://github.com/lannyzhujin/OneCucumber) is an automation test framework for APPs developed by PhoneGap. ONE Cucumber gherkin script will work on both of your iOS and Android APPs, so it is named as "OneCucumber". Only deploy and tested under MAC OSX.
+
 ### Junit
 ### TestNG
 
