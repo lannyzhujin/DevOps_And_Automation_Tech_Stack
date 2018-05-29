@@ -1,7 +1,7 @@
 # DevOps And Automation Tech Stack
 This repository notes the technology stack of my experience as a DevOps and Automation Architect. It was created on 2018 May 28th and only content table was there at the beginning. But I will gradually update and complete valuable notes and links.
 
-* [Test Automation](https://github.com/lannyzhujin/DevOps_And_Automation_Tech_Stack/README.md#test_automation)
+* [Test Automation](https://github.com/lannyzhujin/DevOps_And_Automation_Tech_Stack#test_automation)
     * Framework
         * RobotFramework
         * Cucumber
@@ -28,21 +28,21 @@ This repository notes the technology stack of my experience as a DevOps and Auto
     * Ansible
     * Terraform
 
-* [CI/CD](https://github.com/lannyzhujin/DevOps_And_Automation_Tech_Stack/edit/master/README.md#ci/cd)
+* [CI/CD](https://github.com/lannyzhujin/DevOps_And_Automation_Tech_Stack#cicd)
     * Jenkins
     * Ubran Code
     * Visual Studio Team Services
 
-* [Container](https://github.com/lannyzhujin/DevOps_And_Automation_Tech_Stack/edit/master/README.md#Container)
+* [Container](https://github.com/lannyzhujin/DevOps_And_Automation_Tech_Stack#container)
     * Docker
     * Kubernetes
 
-* [Cloud](https://github.com/lannyzhujin/DevOps_And_Automation_Tech_Stack/edit/master/README.md#Cloud)
+* [Cloud](https://github.com/lannyzhujin/DevOps_And_Automation_Tech_Stack#cloud)
     * AWS
     * Azure
     * PolyCloud
 
-* [Frontend](https://github.com/lannyzhujin/DevOps_And_Automation_Tech_Stack/edit/master/README.md#Frontend)
+* [Frontend](https://github.com/lannyzhujin/DevOps_And_Automation_Tech_Stack#frontend)
     * jQuery
     * React
     * Broswser
@@ -50,14 +50,14 @@ This repository notes the technology stack of my experience as a DevOps and Auto
          * XPath
          * DevTool Protocol
 
-* [Program Language](https://github.com/lannyzhujin/DevOps_And_Automation_Tech_Stack/edit/master/README.md#Program_Language)
+* [Program Language](https://github.com/lannyzhujin/DevOps_And_Automation_Tech_Stack#program-language)
     * Java
     * Python
     * JavaScript
     * Bash Shell
     * Windows Batch/Power Shell
 
-* [Security Test](https://github.com/lannyzhujin/DevOps_And_Automation_Tech_Stack/edit/master/README.md#Security_Test)
+* [Security Test](https://github.com/lannyzhujin/DevOps_And_Automation_Tech_Stack#security-test)
     * OWASP
        * XSS
     * Kali Linux
