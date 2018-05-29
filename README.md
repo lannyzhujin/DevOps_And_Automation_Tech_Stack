@@ -88,6 +88,7 @@ This repository notes the technology stack of my experience as a DevOps and Auto
 
 ## Web UI Automation
 ### Selenium / WebDriver
+Add browser console reading interface for robotframework [selenium2library](https://github.com/lannyzhujin/Selenium2Library)
 ### Chromium
 ### Puppeteer
 
