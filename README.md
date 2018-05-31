@@ -132,6 +132,16 @@ Extend robotframework [appliumlibrary](https://github.com/serhatbolsu/robotframe
 
 ## Broswser
 ### Layout Engine
+ Engine    |    License    |   Embeded in 
+-----------|---------------|--------------
+Gecko | Mozilla Public | Firefox
+Blink | GNU LGPL, BSD-style | Chrome, Chromium, Opera
+EdgeHTML | Proprietary | Microsoft Edge
+WebKit | GNU LGPL, BSD-style  |  Safari 
+Trident | Proprietary | Internet Explorer
+
+Please see the [List of web browsers](https://en.wikipedia.org/wiki/List_of_web_browsers) for full engine list and [Comparison of browser engines](https://en.wikipedia.org/wiki/Comparison_of_browser_engines) for browser marketshare.
+
 ### XPath
 ### DevTool Protocol
 
