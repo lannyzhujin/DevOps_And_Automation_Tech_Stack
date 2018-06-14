@@ -73,41 +73,43 @@ This repository notes the technology stack of my experience as a DevOps and Auto
 
 Run RobotFramework on Python API level
 ```
-from robot.api import TestSuite
-from robot.api import ResultWriter  
-  if __name__ == "__main__":  
-    # Creat your Suite
-    suite = TestSuite("Google search your keyword")    
-    
-    # import SeleniumLibrary
-    suite.resource.imports.library("SeleniumLibrary")    
-    
-    # Create test：Open Chrome Browser
-    test_01 = suite.tests.create("Open Chrome Browser")
-    test_01.keywords.create("Open Browser", 
-        args=["http://www.google.com", "Chrome"])
-    test_01.keywords.create("Title Should Be", 
-        args=["Google"])    
+#-*- coding:utf-8 -*-
 
-    test_02 = suite.tests.create("Google Search")
-    test_02.keywords.create("Input Text", 
-        args=["id=kw", "Trump Kim"])
-    test_02.keywords.create("Click Button", args=["id=su"])
-    test_02.keywords.create("Sleep", args=["5s"])    
-        
-    test_03 = suite.tests.create("Result Assertion")
-    test_03.keywords.create("Title Should Be", 
-        args=["Trump Kim - Google Search"])    
-        
-    test_04 = suite.tests.create("Complete Search")
-    test_04.keywords.create("Close All Browsers")    
-    
-    # Run your test here
-    result = suite.run(critical="Google Search", output="output.xml")    
-    
-    # Reporting
-    ResultWriter(result).write_results(report="report.html", 
-        log="log.html")
+from robot.api import TestSuite
+from robot.api import ResultWriter    
+if __name__ == "__main__":    
+	# Creat your Suite
+	suite = TestSuite("Google search your keyword")        
+	
+	# import SeleniumLibrary
+	suite.resource.imports.library("SeleniumLibrary")        
+	
+	# Create test：Open Chrome Browser
+	test_01 = suite.tests.create("Open Chrome Browser")
+	test_01.keywords.create("Open Browser", 
+			args=["http://www.google.com", "Chrome"])
+	test_01.keywords.create("Title Should Be", 
+			args=["Google"])        
+
+	test_02 = suite.tests.create("Google Search")
+	test_02.keywords.create("Input Text", 
+			args=["id=lst-ib", "Trump Kim"])
+	test_02.keywords.create("Click Button", args=["//input[@name='btnK']"])
+	test_02.keywords.create("Sleep", args=["5s"])        
+			
+	test_03 = suite.tests.create("Result Assertion")
+	test_03.keywords.create("Title Should Be", 
+			args=["Trump Kim - Google Search"])        
+			
+	test_04 = suite.tests.create("Complete Search")
+	test_04.keywords.create("Close All Browsers")        
+	
+	# Run your test here
+	result = suite.run(critical="Google Search", output="output.xml")        
+	
+	# Reporting
+	ResultWriter(result).write_results(report="report.html", 
+			log="log.html")
 ```
 
 ### Cucumber
